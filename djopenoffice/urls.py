@@ -15,7 +15,11 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from first.views import download, embed_handson_table_from_a_single_table
+from django.conf.urls import url
+
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    url(r'^$', embed_handson_table_from_a_single_table),
 ]
