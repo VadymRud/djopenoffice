@@ -1,0 +1,6 @@
+django
+odfpy
+django-excel
+pyexcel-ods
+pyexcel-ods3
+pyexcel-odsr
